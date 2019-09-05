@@ -44,6 +44,7 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
+    "find-indices-of-duplicates": "^0.2.0",
     "lodash.isequal": "^4.5.0"
   },
   "browserslist": [
