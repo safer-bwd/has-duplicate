@@ -1,7 +1,7 @@
 {
   "name": "has-duplicate",
   "version": "0.1.0",
-  "description": "",
+  "description": "Returns true if an array has duplicate elements",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
