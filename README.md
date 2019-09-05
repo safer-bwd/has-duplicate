@@ -1,4 +1,5 @@
 # has-duplicate
+
 [![Build Status](https://travis-ci.com/safer-bwd/has-duplicate.svg?branch=master)](https://travis-ci.com/safer-bwd/has-duplicate)
 
 Returns true if an array has duplicate elements.
@@ -24,6 +25,12 @@ Based on [find-indices-of-duplicates](https://github.com/safer-bwd/find-indices-
 
 ```javascript
 import hasDuplicates from 'has-duplicate';
+
+hasDuplicates([1, 2, 3]); // false
+hasDuplicates([1, 2, 3, 1]); // true
+hasDuplicates([{ v: 1 }, { v: 1 }]); // true
+hasDuplicates([{ v: 1 }, { v: 2 }]); // false
+hasDuplicates([{ v: 1 }, { v: 1 }], (a, b) => a === b); // false
 ```
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** True if has duplicates and false otherwise
