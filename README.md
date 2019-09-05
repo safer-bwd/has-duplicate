@@ -1,4 +1,5 @@
 # has-duplicate
+[![Build Status](https://travis-ci.com/safer-bwd/has-duplicate.svg?branch=master)](https://travis-ci.com/safer-bwd/has-duplicate)
 
 Returns true if an array has duplicate elements.
 
