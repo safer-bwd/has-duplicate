@@ -14,7 +14,7 @@ import findIndexesOfDuplicates from 'find-indices-of-duplicates';
  * hasDuplicates([{ v: 1 }, { v: 1 }]); // true
  * hasDuplicates([{ v: 1 }, { v: 2 }]); // false
  * hasDuplicates([{ v: 1 }, { v: 1 }], (a, b) => a === b); // false
- * */
+ */
 export default (array, comparator = isEqual) => {
   if (array.length === 0) {
     return false;

@@ -8,7 +8,9 @@ Based on [find-indices-of-duplicates](https://github.com/safer-bwd/find-indices-
 
 ## Install
 
-    npm install has-duplicate --save
+```sh
+npm install has-duplicate --save
+```
 
 ## API
 
