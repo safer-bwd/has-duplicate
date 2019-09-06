@@ -1,6 +1,6 @@
 {
   "name": "has-duplicate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Returns true if an array has duplicate elements",
   "main": "dist/index.js",
   "repository": {
@@ -40,11 +40,11 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.15.2",
+    "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "find-indices-of-duplicates": "^0.2.0",
+    "find-indices-of-duplicates": "^0.2.1",
     "lodash.isequal": "^4.5.0"
   },
   "browserslist": [
